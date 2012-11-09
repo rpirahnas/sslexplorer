@@ -1,0 +1,2041 @@
+=================
+=  CHANGE LOG   =
+=================
+SSL-Explorer 1.0.0_RC17 - March 4th, 2008
+
+All Editions
+
+AUditing
+    o Resubmission after session time out has java exception error
+
+Agent
+    o Changing cache directory fails
+
+Applications
+    o Resubmission after session time out has java exception error
+
+Core
+    o Using the search function on the favourites page results in error
+    o Configuration pages do not check for HTTP-HTTPS port conflicts
+    o Leading and trailing whitespace characters not removed with OK data submissions
+    o Possible to elevate a user to super user without entering password
+    o Resubmission after session time out has java exception error
+    o HTTP port configuration option missing from installation wizard
+
+Community Active Directory
+    o Active Directory password expiry problems
+
+Enterprise Active Directory
+    o Active Directory password expiry problems
+
+nEXT
+    o Added configure network wizard for windows (all other OS use old methods)
+    o Fixed bug that caused incorrect configuration to be launched from browser
+    o Fixed host already connected bug.
+    o Added new installer for Windows clients
+    o Added user mode tap driver (only requires administrator to install)
+    o Added 64bit TAP driver
+    o Resubmission after session time out has java exception error
+
+Mail Check
+    o Logs unnecessary warnings
+
+Network Places
+    o Downloading dll and exe files through IE extensions are stripped
+    o Resubmission after session time out has java exception error
+
+Secure Node
+    o New licensing functionality added
+    o Routes and nodes can be created with same name
+    o Resubmission after session time out has java exception error
+
+SMS
+    o Sentences still not fully translated
+    o SMS help empty
+
+Tunnels
+    o Resubmission after session time out has java exception error
+
+Time
+    o Month and day not translated
+
+Web Forwards
+    o Resubmission after session time out has java exception error
+
+-----------------
+    
+SSL-Explorer 1.0.0_RC16 - February 19, 2008
+
+All Editions
+
+Agent
+    o Agent kills application sockets when inactivity timer closes listening socket
+    o Added ability to set keep-alive setting to zero to disable 
+
+Core
+    o Cannot save authentication Scheme after altering selected modules
+    o Attempting to create new checkbox attribute throws an exception
+    o Not fully internationalised
+    o Removing need of cookies for WebDav
+    o profile property tunnel timeout descriptions does not reflect actual behaviour
+    o Installing license manager throws an exception
+    o Added support for Linux 64 bit services
+    o Server requires unnecessary restart after importing client certificates
+    o Javascript authentication fails when target server returns gzip response
+    o File download problems in IE6
+
+Network Places
+    o Deleting file with no permissions throws an error
+
+Outlook RPC
+    o Added support for ActiveSync
+
+Time
+    o Not fully internationalised
+
+Unix
+    o No support for Blowfish hashing on shadow file
+
+Update Backup Restore
+    o Allows updates from extensions as well as core 
+    o Service does not restart properly
+
+Virtual Keyboard
+    o Not fully internationalised
+
+-----------------
+
+SSL-Explorer 1.0.0_RC15 - January 30, 2008
+
+All Editions
+
+Core
+    o Delay when attempting to download large files through network places
+    o Hidden file stats not being displayed correctly through network places
+
+-----------------
+    
+SSL-Explorer 1.0.0_RC14 - January 25, 2008
+
+All Editions
+
+Agent
+    o Failed to delete temporary files when launching extensions
+
+Applications
+    o Creating an application shortcut throws errors
+
+Auditing
+    o Selecting no policies when generating a report throws an error
+    o Version information updated
+
+Brandless Logon
+    o Version information updated
+
+Certificate authentication
+    o URL for unlimited strength policy files is incorrect
+    o Version information updated
+
+Core
+    o Actions export server certificate and download private key actions are mixed up
+    o Creating new attribute throws exception
+    o Added extra logging for tunnel timeout
+
+Drive Mapping
+    o Version information updated
+
+Enterprise Active Directory
+    o Version information updated
+
+IP Authentication
+    o Version information updated
+
+Key Authentication
+    o Exception is thrown whenever an identity is not found
+    o Importing incorrect identity disallows correct identities from being uploaded after 
+    o Version information updated
+
+LDAP 
+    o Version information updated
+
+Mail Check
+    o Version information updated
+
+Network Places
+    o Password visible in debug mode
+    o Logging in after a resource has timed out causes an error
+
+nEXT
+    o Version information updated
+
+NIS
+    o Version information updated
+
+PIN Authentication 
+    o Version information updated
+
+RPC 
+    o Version information updated
+
+RADIUS
+    o Version information updated
+
+Secure Node
+    o Version information updated
+
+SFTP Network Places
+    o Version information updated
+
+SMS
+    o Version information updated
+
+Time
+    o Version information updated
+
+Virtual Hosts
+    o Version information updated
+
+Virtual Keyboard
+    o Version information updated
+
+-----------------
+    
+SSL-Explorer 1.0.0_RC13 - January 4, 2008
+
+All Editions
+
+Access Rights
+    o Personal details permission removed
+
+Applications
+    o Create Application returns error when no application loaded 
+
+Core
+    o Cancelling on authentication scheme change at logon fails
+    o No warning message shown on installation when javascript is disabled
+
+IP Authentication
+    o Changed Authorised IP default to be IPv6 compatible 
+
+Key authentication
+    o Unable to create identity until super user has initially set it
+
+LDAP
+    o Usernames are case sensitive
+
+Network Place
+    o Exception thrown creating folder in shared folder with read-only access
+
+Network Extension
+    o User can access pages when permissions have been revoked
+
+Pin authentication
+    o Unable to create PIN until super user has initially set it
+
+Secure Node
+    o User can access pages when permissions have been revoked
+
+Virtual-Hosts
+    o User can access pages when permissions have been revoked
+
+Web Forwards
+    o Reverse proxy may redirect to wrong target port if server running on port other than 443
+
+-----------------
+    
+SSL-Explorer 1.0.0_RC12 - December 21, 2007
+
+All Editions
+
+Core
+    o Password visible in log file caused by network places
+    o Date time picker produces incorrect HTML  
+    o IP Restriction throws IPv6 error with valid IPv4 addresses  
+    o Minor vulnerability issues resolved
+
+Mail Check
+    o Logon hangs if mail server is not responding
+
+Pin Authentication
+    o Internal id altered to be compatible with realms
+
+NIS
+    o Syserr trace output removed
+
+-----------------
+    
+SSL-Explorer 1.0.0_RC11 - December 7, 2007
+
+All Editions
+
+Active Directory
+    o Corrected logging
+    o Configured to load at startup
+    
+Auditing
+    o Incorrect paths on report template
+    o No global warning displayed when number of secure nodes connected exceeds license limit
+    
+Core
+    o Only key plugins should be loaded during installation
+    o Removing all access rights does not work correctly
+    o GZIP compression not working at all resulting in large downloads for all resources
+    o Logon page not rendering correctly
+    o Deleting role fails to load associated policy
+    o Excessive log statements recorded when access right has no permissions
+    o Directories not browsable
+    o Date to conversion pattern added to log
+    o Message resources not loading properly causing menuItem exceptions to be thrown
+
+Enterprise core
+    o Configured to load at startup
+
+Enterprise Active Directory
+    o Configured to load at startup
+
+Internationalisation
+    o Configured to load at startup
+    
+LDAP
+    o Configured to load at startup
+    
+Mailcheck
+    o Mailcheck stays connected to IMAP server when authentication fails
+    
+NIS
+    o Configured to load at startup
+
+Outlook RPC
+    o Logging level altered
+    
+RADIUS
+    o Configured to load at startup
+
+Secure Node
+    o Stopped secure node client does not always go offline
+    o Routes not deleted when associated secure node deleted
+    o Registration of secure node not working correctly
+
+UNIX
+    o Configured to load at startup
+
+-----------------
+    
+SSL-Explorer 1.0.0_RC10 - November 30, 2007
+
+All Editions
+
+Auditing
+    o Unable to upload new report templates in Firefox
+    o Calendar not working correctly
+    o Disabled and uninstalled extensions still have events stored
+
+Core
+    o Incorrect ordering of extensions
+    o Property Database not caching null values
+    o Language other than English is used not all sentences translated
+    o IP Restrictions IPv6 Compatible
+    o Changing number of items to display on pages causes problems
+    o Multiple Sessions setting Single session per user / IP address changed to Single IP address
+
+Internationalisation
+    o Incorrect ordering
+
+Network Places
+    o Events attributes cleaned 
+
+Radius
+    o Incorrect ordering
+
+Tunnels
+    o Alterations for IP Restriction changes 
+
+Update Backup Restore
+    o Scripts not exiting correctly causing problems with AJAX 
+    o Pages do not conform to empty table conventions 
+
+-----------------
+
+SSL-Explorer 1.0.0_RC9 - November 23, 2007
+
+All Editions
+
+Auditing
+    o Added new report capabilities when a report template is selected the available fields change on screen
+    o Remove All add All buttons options not available in recorded events selection
+
+Accounts
+    o Last page arrow button not working
+
+Brandless Logon
+    o Brandless Logon displays pad-lock icon when no custom logo specified
+
+Core
+    o Shutdown time not updated correctly 
+    o Selecting save on server configuration pages despite not amending any values prompts for system restart
+    o IP address 0.0.0.0 is not accepted as a valid source interfaces
+    o Importing JKS keystore as SSL-Explorer certificate fails to set webServer.alias property correctly resulting in problems starting/ accessing server.
+
+Enterprise Drives
+    o Order in extension is incorrect
+
+Extension Manager
+    o Removed application extensions do not reappear under remote access tab
+
+Internationalization
+    o Not always closing files after lines have been translated
+    o Order in extension is incorrect
+
+Network Extension
+    o Upgraded key.exe to support enumeration of registry keys
+
+PIN Authentication
+    o Performs check on PIN change permission in error
+
+Profiles
+    o User Attributes in web session timeout does not validate
+
+Radius
+    o Order in extension is incorrect
+
+Secure Node
+    o Node can potentially disconnect without SSL-Explorer noticing
+    o Cannot display more than 10 nodes on the main page
+
+Tunnels
+    o Cannot set local interface to 0.0.0.0
+
+Web Forwards
+    o Sorting of resources is incorrect
+    o Replacement proxy Form POSTs using www url form encoded parameters does not work correctly
+    o Replacement proxy DOT_ALL is enabled preventing all matches being processed 
+
+SFTP
+    o Date time stamp on files is incorrect
+
+-----------------
+
+SSL-Explorer 1.0.0_RC8 - November 16, 2007
+
+All Editions
+
+Active Directory
+    o General database retrieving users and roles is inefficient
+
+Auditing
+    o Change to audit report SQL to ensure the correct join is performed when joining event_parameters table when no parameters exist for a event
+
+Certificate Authentication
+    o Retrieval users and roles is inefficient
+
+Core
+    o New messages shown during system restart and shutdown
+    o Setup mode redirects to HTTPS when jetty.force.HTTPSRedirect Set to true
+    o Auditing events cannot be traced to individual session. Unique session id is now audited
+    o Groups and users are now processed more efficiently 
+    o Limit added to users and groups retrieved to avoid out of memory errors during page rendering
+    o List all accounts and groups has been removed to avoid memory problems
+
+Drive Mapping
+    o setFileInformation throws exception when operation fails causing problems when saving Word files
+
+LDAP
+    o General database retrieving users and roles is inefficient
+
+NIS
+    o Throws, Too many open files error
+    o General database retrieving users and roles is inefficient
+
+SMS
+    o Retrieval users and roles is inefficient
+
+Update Backup Restore
+    o New icons added to update page
+    o New progress bar added when checking for updates
+    o Backup page incorrect redirect
+
+Unix
+    o General database retrieving users and roles is inefficient
+
+-----------------
+
+SSL-Explorer 1.0.0_RC7 - November 9, 2007
+
+All Editions
+
+Active Directory
+    o Caching seems to lose groups and associations between users and groups
+
+Agent
+    o Connection for RDP password visible in agent.log
+
+Core
+    o Unnecessary id 2005 warnings being logged
+    o Added new functionality to detect when server is restarted 
+
+LDAP
+    o Caching seems to lose groups and associations between users and groups
+
+Network Place
+    o SMB share uses default port regardless of port specified
+    o FTP share does not work
+
+Network Extensions
+    o Removed references to actions that no longer exist
+    o Can publish same route on client as defined on server interface
+    o Tap driver install broken fails with parameter not found exception 
+    o Launching nEXT client through browser results in incorrect configuration being launched when multiple configurations are available
+    o Launching nEXT client through browser fails when SSL-Explorer running behind nCipher SSL Acceleration card
+    
+Secure Node
+    o Global warning does not inform user when secure node is unlicensed
+
+Update Backup Restore
+    o Tooltips incorrectly formatted
+    o Redirection between pages incorrect
+    o New icons added to updates
+
+Web Forwards
+    o Replacement proxy broken for any forms using GET method
+
+-----------------
+    
+SSL-Explorer 1.0.0_RC6 - November 2, 2007
+
+All Editions
+
+Active Directory
+    o Unique username support for child domains added
+
+Access Rights
+    o Access right creation wizard can be accessed through URL despite not having permission
+
+Agent
+    o Incorrectly reads proxy details from Firefox profiles
+    o Connection for RDP password visible in agent.log
+
+Authentication Scheme
+    o Scheme can be created with a single secondary module
+    o Creating a policy within access right wizard then canceling out of wizard loses referrer
+
+Auditing
+    o Failed logons are not audited
+    o Audit PDF report does not shade alternate lines
+    o Added ability to search pdf report
+
+Attributes
+    o Policy attributes causes policy editing to throw an error
+
+Core
+    o No validation for timer based properties such as maxIdleTime
+    o Display options are not actioned immediately in IE 
+    o Editing resources with long names causes an error
+    o GPL source release SSL-Explorer does not build
+    o New agent timeout handling prevents agents launched outside of SSL-Explorer such as Converse from logging on.
+
+Internationalization
+    o Menu item appears in user console and not management console
+
+Secure Node
+    o CanonicalHostName used instead of Hostname to fully qualify a secure node
+    o Editing a secure node throws an error
+
+Host Monitor
+    o Adding new service resets policies currently set
+
+Network Places
+    o FTP connections do not seem to close down as excepted
+
+nEXT
+    o Selecting nEXt from user console shows a blank page
+
+Virtual Keyboard
+    o Multiple text fields cause keyboard to tab which causes words to be split amongst the text fields
+
+WebDAV
+    o Authentication always required regardless of type of mount 
+
+-----------------
+
+SSL-Explorer 1.0.0_RC5 - October 26, 2007
+
+All Editions
+
+Active Directory
+    o Set password on next logon does not work
+
+Agent
+    o Property sslexplorer.disableNewSSLEngine=false does not work
+
+Authentication Schemes
+    o Priority arrows still visible on the topmost scheme
+    o System can create an authentication scheme with only a secondary module
+
+Accounts
+    o Locked status is not removed when user is deleted from system
+
+Audit
+    o Checking audit log integrity throws an exception
+
+Access Rights
+    o Removing permissions while user is using permissions causes 404 error 
+
+user cannot exit from page
+    o No permissions available for secure node
+    o Intermitent menu rebuilding problem 
+
+Client Certificates
+    o Unable to locate installed certificate  
+
+Core
+    o Web Server maxIdleTime setting has incorrect validation
+    o Large images on logon page not centred
+
+Installation Wizard
+    o Current user database not closed when stepping back to change database type
+
+Network Places
+    o FTP does not always detect host type
+    o SFTP does not work on non-standard ports
+
+Virtual Keyboard
+    o Clicking on keyboard loses focus from field being targeted
+
+-----------------
+
+SSL-Explorer 1.0.0_RC4 - October 19, 2007
+
+All Editions
+
+Active Directory
+    o Entering password throws FatalKeyException
+    o Set password on next logon does not work
+
+Authentication Schemes
+    o Lowest level Scheme still has an option to move scheme down
+
+Access Rights
+    o i18n pages are available to anyone that can access the management console
+    o My favourites use permission is not needed
+
+Auditing
+    o Reinstalling audit report, templates do not get updated 
+    o Auditing is unable to maintain the state of selected events being reported on
+
+Built-in
+    o Changing password at logon causes an error
+
+Certificate Authentication
+    o Creating a CA throws an illegal key size error
+
+Client Certificates
+    o After authentication user is unable to start agent
+
+Core
+    o Cannot filter on tabbed pages
+    o My favourites page does not remember last view icon/list
+    o Logging in with JavaScript disabled error message visible should not throw an exception
+    o Copying resources throws an error
+    o Port 80 redirect always listens on All Interfaces, even if you have specified it to listen on a specific interface for the main server
+    o Large banners on the logon page look off-centre
+
+Drive Mapping
+    o Cannot create new folder if another user is accessing the parent folder
+
+Extension Store
+    o Missing icons
+
+Installer
+    o Intermittent failure, cannot find msvcr71.dll when running against JRE 1.6
+
+OTP
+    o A new option has been added to choose the type of passphrase to generate
+
+Outlook
+    o Deleting an email causes an error
+
+RADIUS
+    o Password prompt label should be changed as it can get confusing which password is required when using two-factor authentication
+
+Tunnels
+    o No visual indication that an auto-start tunnel has failed to start
+    o Defining an auto-start tunnel to listen on port 0 causes multiple tunnels to open
+
+WebDav
+    o Authentication does not restrict users to WebDav associated policies only
+
+-----------------
+
+SSL-Explorer 1.0.0_RC3 - October 12, 2007
+
+All Editions
+
+Core
+    o Cannot sort resources in tabbed pages
+    o Disabling JavaScript still allows access
+    o Performance and SSL tabs missing from configuration page
+
+Agent
+    o Autostart fails to launch when profile is set as default profile
+
+Active Directory
+    o Using memberOf attribute for attaching groups can be problematic for Windows small business servers
+    o Cannot use a service account that is outside the OU filter 
+    o Groups are case sensitive
+
+LDAP
+    o Cannot use a service account that is outside the OU filter 
+    o Anonymous LDAP is not working 
+
+Web Forward
+    o Symbol & in parameter value is incorrectly encoded as name/value pair terminator
+
+Internationalization
+    o Core languages missing
+    o Page not loading correctly after an upgrade
+    o Main page is inconsistent with standard theme
+    
+-----------------
+    
+SSL-Explorer 1.0.0_RC2 - September 28, 2007
+
+All Editions
+
+Core
+    o Exception is thrown when adding some users to policies
+    o Proxy servers now work with agent on Vista, java 6 and 64 bit platforms
+
+WebDAV
+    o WebDAV authenitcation always required regardless of type mount 
+
+SMS
+    o SMS provider originator string is truncated to 11 characters
+
+Outlook
+    o Fixed multiple authentication prompts when accessing mailbox over RPC/HTTPS
+    
+-----------------
+    
+SSL-Explorer 1.0.0_RC1 - September 21, 2007
+
+All Editions
+
+Core
+    o Personal policies added
+    o Personal policies access rights added
+    o Personal policies checkbox added to policies selection box
+    o Dismiss warnings added to message windows
+    o New filter added to accounts page to show active accounts
+    o Selecting all access rights causes failure
+    o Server default language can be overridden 
+    o New selection option added to profiles to choose new agent type
+    o Ability to copy resources added
+    o Upgrading locks super user out of system
+    o Authentication scheme with no password requirement still prompts for private key passphrase
+    o Able to login when an authentication module with a single entry of client certificate authentication is present and javascript is disabled
+    o Cannot edit access rights
+    o Removing 'user favorites' permission from global permissions stop users from logging in. Should still be able to login but not see removed page
+    o Super User cannot view or edit password attributes
+    o Should not be allowed to add additional schemes to WebDAV and Embedded Client
+    o Launching extension with JRE version < 1.5 causes environment of process to be setup incorrectly, causing miscelaneous errors
+
+Agent
+    o Agent should not assume connections are only via HTTPS 
+    o Agent should work in HTTP and HTTPS as well as behind a nCipher SSL Accelerator
+
+UNIX
+    o UNIX database consolidated into it's own plugin 
+
+Network Places
+    o Additional active/passive options added to FTP network places
+    o FTP Network Places do not seem to close down as excepted
+    o Network places does not obfuscate user passwords
+
+Converse
+    o Converse access rights added
+    o Message archiving added
+
+Auditing
+    o Audit reports can now be saved
+    o New date options added when creating a report
+    o Event names are inconsistent
+
+-----------------
+
+SSL-Explorer 0.2.15 - August 3, 2007
+
+All Editions
+
+Core
+    o Restart message is not prominent when a parameter is changed which requires a restart.
+    o A newly created resource should be seen instantly to logged in users without users having to 
+      log out and back in again.
+    o Name search does not escape invalid XML characters from the username.
+    o Name search is unable to find users with a space in the name.
+    o HTTP header injection exploit.
+    o Policies not listed in resource info tooltip.
+    o No Restart notification displayed when a valid license is installed after an invalid license upload fails.
+    o The SingleConnection tunnel command when creating extensions does not work with the false flag.
+    o Page table should provide each page in blocks of 10 items.
+    o Some system properties dissapear if an extension fails to upload.
+    o Sessions are not cleaned up after user disconnects.
+    o Group page GUI refactored.
+    o Status page GUI refactored.
+    o License manager page GUI refactored.
+    o Replacements option moved under web forwards.
+    o Replacement variables do not contain session:username and password in agent server proxy tab.
+    o Weak ciphers have been disabled for default configurations.
+    o Extension store fails to download plug-in dependencies.
+    o Access right page has strange 5000 resource type exists.
+    o Policy selection page contains redundant up and down button functionality.
+    o Creating a user then cancelling during password assignment.
+    o Creating applications with integer parameters are unable to use user attributes.
+    o Remote tunnels do not show in tunnel monitor.
+    o SSL-Tunnel source interface has no validation.
+    o Pressing cancel in profiles page when the session has timed out causes an exception if you try to press 
+      cancel again.
+    o Profiles page refactored.
+    o Checking a checkox in global profiles is unchecked after you change tabs.
+    o If you have a User and a Group with the same name, these can't both be assigned to a policy.
+    o Assigning a user which doesnt exist to a policy throws an exception.
+    o User cannot create an attribute even though they have been given the access rights to do so.
+    o Description is not a required field when creating an attribute.
+    o Filter does not work in attributes.
+    o Attributes page GUI refactored.
+    o Extension page GUI refactored.
+    o If a disabled extension has an update available the info page shows an exception.
+    o Password authentication scheme should be the only authentication scheme whenever prompted for re-authentication.
+    o Authentication scheme page GUI refactored.
+    o An authentication scheme should be allowed to be primary if a secondary scheme also exists.
+    o Redirection when canceling out of selecting an authentication scheme at logon is incorrect.
+
+Active Directory
+    o The include exclude filter doesn't work when the accounts/groups contain any of the following characters in them \/,#.
+    o User is assigned an empty value for password last set attribute.
+    o Nested groups in AD do not give access to resources assigned to a parent group.
+    o Configuration has been simplified.
+    o If a password policy constraint causes an error when changing password in enhanced AD an exception is thrown.
+
+Auditing
+    o Auditing integrity check should not save audit seed.
+    o Audit initialize event should always be included in auditing.
+    o There is no validation of date or time fields when selecting to run a report.
+    o Report page numbers are incorrect.
+    o New auditing events need their labels adding to the auditing extension.
+    o Audit initialize event should not be visible.
+
+Agent
+    o If a user does not have java runtime installed no warning message is shown when the agent applet fails to launch.
+    o Changes to resources are not reflected in Agent menu.
+    o Launching agent automatically at logon does not work if user is expected to select a profile at logon also.
+
+Virtual Keyboard
+    o Link to virtual keyboard should be titled 'Virtual Keyboard'.
+    o Dutch keyboard is missing key images.
+    o Italian Virtual Keyboard has a space bar at the front of the keyboard.
+    o Virtual keyboard disspears behind combo box's.
+
+Mail Check
+    o Mail check should not be visible from the user console if not configured.
+    o AJAX requests keeps session open indefinatley.
+    o Users with space in there passwords do not work with mail check.
+
+Installer
+    o Stepping back through the installer and changing the certificate type causes unusual behaviour during installation.
+    o Installation of extensions step in installer is irrelevant.
+    o Insallation progress bar added.
+    o Selecting All interfaces in the web server configuration step causes the service to fail.
+
+LDAP
+    o LDAP interface is inconsistent with active directory.
+
+NIS
+    o Over 100 NIS users causes timeout and exception in install wizard.
+
+Internationalization
+    o Selecting default language or disabling user selecting language do not work.
+
+Network Places
+    o FTP path should not be a required parameter.
+    o Cannot auto recognize JAR or ZIP files.
+    o Trying to open an unauthroized network place folder throws an error.
+    o Simple HTML view of DAV colllection says everything is a 'Dir'.
+    o Masking of file system errors loses the causing exception. 
+    o Launch of network place contains an incorrect path causing unnecessary redirect.
+    o GET WebDAV implementation doesn't close files it opens.
+    o OWA does not work in non-english environment.
+
+Drive Mapping
+    o No indication that extension requires more recent java runtime.
+    o When network place launches drive mapping fails to prompt for an alternative drive for those already mapped.
+    o No files/directories shown when a single directory denies access for the user.
+
+Network Extensions
+    o GUI refactored.
+    o Server tab should be main focus.
+    o Added bridging support
+    o Active on startup open added to server interface
+    o Redirect gateway option added to client configuration.
+    
+Web Forwards
+    o Substring out of range error in reverse proxy web forward when a cookie sent by the client has no value. 
+    o Tunneled forwards do not process user attributes in the URLs.
+    o Javascript escaped characters cause 404 not found error in replacement proxy.
+    o Replacement proxy form submission results in 404 error for multipart/form-data content encoding.
+
+Brandless logon
+    o Logo does not display in Brandless Logon.
+
+Client Certificates
+    o Keystore selection reverted back to dropdown box.
+    o In import certificate the Alias label should be renamed to Username.
+    o GUI refactored.
+
+SMS
+    o Originator text field support for 11 alphanumerics or 15 numeric characters.
+
+IP Restrictions
+    o GUI refactored.
+
+Outlook RPC
+    o Extended to support Outlook Mobile Access (OMA) clients
+
+-----------------
+
+SSL-Explorer 0.2.14_01 - June 7, 2007
+
+Core:
+    o Extension manager fails to download and install plug-in dependencies.
+    o RequestParameterMap fails to process multipart/form-data correctly. 
+    
+-----------------
+
+SSL-Explorer 0.2.14 - May 29, 2007
+
+Core:
+    o Changing homepage of a profile has no affect 
+    o Install service does not start with jdk 1.5_06
+    o Application extension description is not mandatory
+    o Priority Changes are not auditing for IP Restrictions
+    o Changing password definition causes users to be locked out
+    o Server configuration has no validation on proxy hostname
+    o No formatting of custom logo
+    o Shutdown time is not correcly validated
+    o Session attributes can now be included within user attributes
+    o Web server directories are browseable
+    o SSL ciphers and protocols in the Selected list are not persisted
+    o Proxy configuration port value can exceed maximum port length
+    o Importing a PKCS#12 file that has been exported from IIS causes CPU to hit 100%
+    o Installation wizard shows password parameter when AD database is selected
+    o Creating a policy whilst working through the network place wizard throws an error
+    o Categories with no visible properties are still shown in the system configuration page
+    o Pressing cancel whilst in change password screen does not cancel out of the page
+    o Clicking Filter or Reset on the User Console Favorites page causes exception
+    o Installer sets wrong default database on re-install
+    o Multiple Set-Cookie headers are sent for SSL-Explorer cookies
+    o Changing Database from Built-in to AD during Installation causes error at the end of the wizard
+    o Miscellaneous typos found in Access Rights
+    o Enabling extensions and refreshing the screen throws an exception
+    o Wrong resource launched when resource assigned to multiple policies
+    o Access rights are unexpectedly deleted from system when no permissions are contained within
+    o Consistent messages are now shown for all valid and invalid accounts trying to log into the system
+    o New option added in web server configuration page to record Jetty statistics
+                   
+Agent:
+    o Trying to launch a resource from the Agent menu does not work
+    o Agent profile property added to allow modification to applicaiton's default tunnel address
+    o Agent shutdown can be problematic
+    o Agent reports incorrect version for client
+    o Agent launcher slow to start up, esp. remotely.
+        
+Network Places:
+    o Overwriting a file in network place window does not provide a warning message
+    o Selecting NO on network places confirm popup windows
+    o Network place TAR archive option removed 
+    o Network Places wizard does not validate path correctly when type is set to automatic
+    o Network place path validation added
+    o Renaming a file with an empty name deletes the file from the file system
+    o Typo in network place file upload window
+    o Network Places - VFSRepository not cleared on logout 
+                       
+Tunnels:
+    o Cannot edit SSL-Tunnels with create, edit and assign rights
+    o No validation on tunnel hostname 
+
+Web Forwards:
+    o Downloading files through replacement proxy does not work correctly
+    o Outlook Web Access 2007 does not work
+    o Tunneling web forward does not allow URL parameters
+    o New replacement expression added and two existing expressions amended
+    o Replacement proxy problems with Oracle financials
+                
+Active Directory:
+    o AD service account user is forced to change password despite not having rights to alter his password
+    o Active directory fails when the userPrincipleName does not have @domain.com
+    o Install Wizard will not run if the AD server cannot be contacted
+    o Selecting AD database on some systems causes error
+
+Applications:
+    o Creating a policy whilst working through the application extension wizard throws an error
+
+Enterprise Core:
+    o Removing enterprise core without a license installed throws an exception
+    o New license upload option added to Enterprise Edition page of installer
+
+Auditing:
+    o Archive time validation isn't complete
+    o Incorrect page is redirected to after initialising auditing
+
+Brandless Logon:
+    o Site name should be allowed when brandless logon is in use
+    o Title text in brandless logon should be replaced with welcome text
+
+Enhanced Active Directory:
+    o AD service account user is forced to change password despite not having rights to alter his password
+    o Active directory fails when the userPrincipleName does not have @domain.com
+    o Install Wizard will not run if the AD server cannot be contacted
+    o Selecting AD database on some systems causes error
+            
+Mail Check:
+    o MailCheck can cause large number of threads to be created
+
+Drive Mapping:
+    o Drive mapping on some systems will not map drive
+
+Network Extensions:
+    o Clearing out the .sslexplorer directory and starting nEXTclient only downloads the first block of nEXTWin32.exe 
+
+All Enteprise Extensions:
+    o Improvement of licensing checking of extensions
+
+-----------------
+
+SSL-Explorer 0.2.13 - April 13, 2007
+
+All Editions
+
+Bug Fixes
+    o Better validation when user database is not available
+    o Installer does not highlight mandatory fields
+    o Selected interfaces disapear from the web server step whenever you hit previous in the installer and return step
+    o Configure proxies in installer does not validate port parameter
+    o Negative minutes can be added to the shutdown process
+    o Concurrent logon causes UI problems
+    o Selecting no user database in the installer causes an exception
+    o Cannot edit or delete users or groups with a # in the name
+    o Network place resource name cannot contain apostrophes
+    o Windows network type network place type fails if \\ is before the servername  
+    o Default console resource view only works for favorites 
+    o Setting authentication order does not work correctly
+    o Network Places null pointer exception when trying to paste nothing
+    o Trying to create an access right throws an error
+    o System property added to allow admin to log back in if accidentally locked out due to an IP restriction 
+    o Creating an account immediatly after another causes an error
+    o Active directory improvements
+    
+Enterprise Edition
+
+Bug Fixes
+    o Comma seperated CN not found with any groups when authenticating with AD via LDAP 
+    o Audit event name inconsistencies
+
+-----------------
+
+SSL-Explorer 0.2.12 - March 30, 2007
+
+All Editions 
+
+Bug Fixes
+    o Hostname validation on certificate prevents creation of wildcard certificates.
+    o AgentExtensionVerifier interface not being called for agent extensions. 
+    o Server executable type extension fails with 'name is a required parameter' error. 
+    o Direct network place authentication broken. 
+    o Web forward proxy settings not using username/password set in server configuration.
+    o NTLM proxy authentication never succeeds if prefered authentication is set. 
+    o Split reverse proxy configuration into two seperate types of reverse proxy.
+    o ActiveDNS reverse proxy fails due to launch session id case being incorrect.
+	o Agent now sends browsers User-Agent header instead of SSL-Explorer/Agent
+     
+Enterprise Edition
+
+Bug Fixes
+    o Drive mapping extension now supports Vista and Windows x64
+        
+-----------------
+
+SSL-Explorer 0.2.11_01 - March 23, 2007
+
+All Editions 
+
+Bug Fixes
+    o Agent fails to start due to stack overflow exception.
+    o Disabling authentication scheme plug-in prevents users assigned that scheme from logging on.
+    o Extension upload results in error even if upload is successful.
+	o Property framework fails to process \n as newline in default property values.
+    o Bad network place path prevents access to Network Places Management Console
+    
+Enterprise Edition
+
+Bug Fixes
+    o Virtual keyboard JSP error on new HTTP session.
+    o Auditing sub reports visible in report type selection. 
+    o SMS message too large due to property framework newline bug. 
+    o SMS message fails to send with stack overflow exception.
+    o Network Extensions copied nEXTserver binary is not recognised. Added new configuration property
+      "Do not compile" that instructs server not to attempt a compile, and to use the binary in 
+      $SSLX_HOME/bin regardless. 
+      
+-----------------
+        
+SSL-Explorer 0.2.11 - March 19, 2007
+
+All Editions 
+
+Bug Fixes
+    o Reverse proxy form authentication broken.
+    o Web forward popups cannot be resized in some browsers.
+    o Agent fails with unsupported class version error.
+    o Community builds do not include jzlib.jar causing agent to crash upon channel open.
+    o Viewing multiple pages in Network Place file browser causes error with "No launch session".
+    o Super user cannot create or edit global profiles.
+    
+-----------------
+
+SSL-Explorer 0.2.10 - March 9, 2007
+
+Community Edition 
+
+Features
+    o Delegation � Assign rights to your users that allow them access to management console functions.
+    o Multiplexed Agent � The agent has been re-factored to multiplex all communication over a single 
+      connection. The previous implementation maintained separate connections for each tunnel opened 
+      and lacked interactive communication with the SSL-Explorer server.
+    o SWT Agent � A new GUI has been introduced for Java 1.4+ that uses native platform components using 
+      Eclipses SWT technology. 
+    o Options Panel � A new toggle side panel has been introduced to allow various options to be configured. 
+      These options include language, profile and the option to hide layout components such as the menu, 
+      warnings, information messages etc
+    o Logon Page � An authentication banner can now be added to the logon page with options to change text
+      and add a company logo. All versioning information has been removed from unauthenticated pages. 
+    o Disable Extensions � Extensions can now be disabled rather than removed.
+    o Application Shortcut Parameters � parameter entry can now be validated.
+    o Attribute Validation � information can now be added to custom attributes to enforce that users enter 
+      a valid value for a given attribute.
+    o Policy Attributes � Attributes can now be configured on policy objects that allow customization of a 
+      resource through policy attributes.
+    o Launch Resource By Policy � Resources can now be launched via a specific policy (required for Policy 
+      attributes)
+    o Improved IP Restrictions � Added support for CIDR and additional wildcard support. Default rule added 
+      to help prevent users from locking themselves out of the system.
+    o Network Places � Creation of network places made simpler to allow selection of file type.
+    o Icon View � Added to all resources including favorites page.
+    o Agent Cleanup � An additional option has been added to cleanup the agent when the user logs out. This 
+      removes all trace of the agent from the client machine.
+    o Launch Resources From Agent � applications, network places, tunnels and web forwards can now be launched
+      from the agent menu.
+    o General UI improvements � Resource information tool tips removes much of the clutter from resource listings. 
+      Persistent state allows your preferences to be maintained across sessions. Many improvements to allow 
+      working on smaller screens. 
+    o Resource Launching Framework � changes to the way resources are launched. This has implications with popup 
+      blocking.
+    o Web Forward Authentication �  a new �Javascript� automatic authentication in reverse and replacement web 
+      forwards.
+    o Web Folders � option to open web folders from Firefox (needs firefox extension 
+      https://addons.mozilla.org/firefox/540/)
+    o Active Directory � Support for backup domain controllers and LDAP simple binding authentication to address 
+      issues in GSS-API implementation. SSL support added to secure simple binding authentication (SSL is not
+      compatible with GSS-API)
+
+      
+Bug Fixes
+    o Improved Page Loading � Previous versions of SSL-Explorer suffered from a larger than normal CSS file 
+      being downloaded with every page request. The CSS is now compressed and cached to reduce page overhead 
+      by some 200k!
+    o OWA attachment causes server internal error.
+    o Replacement proxy form authentication fixed.
+    o Many more bugs fixed that are too numerous to list!    
+
+Enterprise Edition
+
+Features
+    o LDAP/Active Directory � Added support for creating & editing users and groups including changing user�s passwords. 
+    o Drive Mapping � The long awaited drive mapping plug-in is now released. This allows each network place to 
+      be allocated a drive letter for automatic mapping upon agent startup.
+    o SFTP Network Places � Access SFTP servers as a Network Place.
+    o Virtual Keyboard � Visibility and position maintained across pages
+    o Network Extensions - Vista compatible driver & clients
+
+-----------------
+SSL-Explorer 0.2.9_06 - January 18, 2007
+
+Bug Fixes
+    o Reverse proxy wizard path validation fails.
+    
+SSL-Explorer 0.2.9_05 - January 10, 2007
+
+Bug Fixes
+    o Reverse proxy path with trailing slash may not match destination URL.
+    o Direct web folder access broken
+    o Authenticated user can gain super user access from a client where super user had
+      previsouly logged on and not logged out correctly before closing the browser. This
+      only applies to users that successfully authenticate, it does not provide access to
+      unauthenticated users. This was only possible within a short period of time whilst the
+      session cookie was still valid. 
+    o Network place file store does not accept linux native paths.
+    
+SSL-Explorer 0.2.9_04 - December 18, 2006
+
+Bug Fixes
+    o Certificate import fails to validate alias entered by user.
+    o Administrator can easily disable their own account.
+    o Combo boxes in resource details screen span entire length of form.    
+    o Preferences menu option has been removed due to confusion and duplicity, viewing of
+      profile settings must now be performed through My Profiles menu.
+    o Request parameters order is changed in outgoing reverse proxy http requests.
+    o Reverse proxy requests do not reset session timeout
+    o NullPointerException caused by policy deletion causes lockout problems.    
+    o Agent file downloads are always 0 zero length files.
+          
+SSL-Explorer 0.2.9_03 - December 1, 2006
+
+Bug Fixes
+    o Reverse proxy activity does not reset session state, causing 404 errors after session cookie timeout.
+    o Incorrect username case can prevent login with some password based authentication modules.
+    o Inconsistent use of remove and delete. 
+    o Authentication scheme priority defaults to invalid priority.
+    o No tooltip for Webfolders launch icon.
+    o Exception thrown if user attempts to logoff their own account through status page.        
+    o No prompt when user attempts to delete an authentication scheme.
+    o Hitting back button on various pages causes broken frames.    
+    o NullPointerException thrown if user attempts to create application shortcut when no application extensions
+      are installed. 
+    o SQL exception thrown when attempt is made to create a replacement.
+    o Internal server error encountered when attempting to configure policies through permission resource creation.
+    o Cancel button disapears when changing profile in change password screen.    
+    o Groups within policy does not provide access to assigned resources to group members.   
+    o Default language setting has no effect.
+                         
+SSL-Explorer 0.2.9_02 - November 23, 2006
+
+Bug Fixes
+    o Changing users password does not change confidential attributes private key passphrase.
+    o WebDAV Upload of zero length file fails.
+    o WebDAV rename attempts to delete source file after file has already been deleted.
+    o Replacement variables not processed on Network Place resources.
+    o Content-Encoding response header includes multiple encodings.
+    o Reverse proxy sending multiple header values.
+    o Replacements not processed on server application types.
+    o Replacements cause invalid URL error during wizard creation.
+                
+SSL-Explorer 0.2.9_01 - November 16, 2006
+
+Bug Fixes
+    o Language category list excludes WEB-INF/lib jar files.
+
+SSL-Explorer 0.2.9 - November 10, 2006
+
+Features
+    o VFS locking implementation added to prevent duplicate writes on files (this
+      should not be confused with WebDAV locking which is currently not supported).
+    o Language framework added to allow selection of language extensions.
+    o Download store which enables a signed on user to access any downloads from the current session.
+    o Option to export SSL certificates and keys to PKCS12 files (.P12/.PFX).
+        
+Bug Fixes
+    o Network place authentication fails when username has space character.
+    o Tidy up and bug fixes for table sorting / filtering in the status page.
+    o Accounts/Groups sorting produces 404 Not Found error.
+    o Web forwards were not processing attributes in URL correctly.
+    o SSLSocket fails when server trust store is empty.
+    o Extension version now shown in Extension Manager.
+    o Popup blockers cause download framework to remove file before user has a chance to download it.
+    o Web folders failed to use existing credentials for authentication.
+    o FTP store cannot use passive mode (temporarily fixed by adding passive=true to end of network place URI)
+    o Logon flow would not reset username after first attempt.
+    o Importing private key requires knowledge of key alias. Import will now select first alias available 
+      if no alias is provided by user
+    o getSession of authenticated actions could return incorrect session.
+    o reverseProxyTicket parameter causes problems with backend web servers, parameter is now removed before
+      the request is proxied. 
+                              
+-----------------
+
+SSL-Explorer 0.2.8_01 - September 29, 2006
+
+Bug Fixes
+    o Web Folders fails if server is installed with a non-english locale. 
+    o Source distribution fails when attempt is made to launch install wizard.
+
+-----------------
+
+SSL-Explorer 0.2.8  - September 25, 2006
+
+Features
+    o Completion of authentication scheme flow changes introduced over last few 
+      releases. All schemes are now assigned via policy. Checks have been added
+      to ensure that the Super User does not lock themselves out of the system 
+      through changes to authentication schemes and/or policies.
+    o Restrict resource access to signed on policy added. If this option is 
+      enabled in the System Configuration then a user will only have access 
+      to resources attached to policies that were also attached to the 
+      authentication scheme they signed in with.
+    o Improved and expanded Agent message notifications. Popups will now be
+      displayed on startup / shutdown, when tunnels are opened, 
+      applications are launched and more.
+    o Tidied up Agent debug console.
+    o Added new 'Last data' column to Agent tunnel monitor that shows the time
+      data last travelled through a tunnel.       
+    o New 'server' and 'javas' extension types added to support execution of native
+      and Java applications directly on the server. 
+    o Disabled cookies are now detected and an information page is displayed 
+      requesting that the user re-enable them.
+    o Active Directory OU filter now supports OU exclusion.
+                  
+Bug Fixes
+    o Active DNS hostname format setting added to Web Forward resource settings.
+      This allows the option to have Active DNS hostnames generated as a child
+      domain of the SSL-Explorer server or on the same domain.
+    o Authentication scheme cannot be selected using the Return/Enter key 
+      during logon.
+    o RSS feeds do not display the first time a page is accessed.
+    o Fixed problem with embedded client enabled applications not working the 
+      first they are launched. This was caused by incorrect case in the 
+      authentication HTTP headers. 
+    o XMLHttpRequests no longer defeat the session timeout. A symptom of 
+      this problem was when you have the Mail Check extension installed, 
+      a login would never timeout regardless of user activity. This 
+      required changes to Jetty.
+    o Fixed JavaScript errors on account edit page, edit authentication scheme 
+      page and user attributes page. 
+    o Fixed height tab problems on a number of pages.
+    o Fixed some harmless exceptions that would occur when the Agent
+      tunnel monitor is running.
+    o Fixed margins / style problem in network place file system view page.
+    o Fixed problem in IE where the Agent would sometimes not 
+      redirect the browser to the correct page after a tunnel or application
+      launch.
+    o 3SP certificate imports fails with FQDN
+    o RSS feeds can now be shown everytwhere except in User Console.
+    o Removed stray debug System.out from Jetty
+    o Shutdown message is now correctly sent to all users again.
+    o Fixed problem with "Could not find any usable authentication schemes"
+      that would occur on the logon page under some circumstances.
+    o Fixed bug where Active Directory setup would always fail because kerberos 
+      implementation in the java runtime would still attempt to use 
+      previously entered settings.
+    o Fixed NPE that could sometimes occur when listing any resource 
+      types. This could be caused by stray resource / policy relationship
+      records pointing to resources that no longer exist. This error is
+      now trapped and any invalid resources just hidden.
+    o 'Cannot create wizard Sequence' errors should now no longer appear
+      if an attempt is made to access a later wizard page before the first page
+      is filled in. This could happen with incorrect bookmarks or if a
+      session timed out whilst using the wizard. The user will now be 
+      directed to the page before the wizard started, or failing that the
+      home page. Also, if this occurs during the installation wizard, an
+      additional message will be displayed.
+    o Fixed problem where resources that were not allowed by policy were
+      showing in the favorites page (although they could not be used).
+    o Nested policies have been removed as they were broken. Is anyone using them?
+    o Agent now sets proxy authentication as preemptive if authentication type is Basic  
+    o POST parameter encoding fix applied to last release still had issues with some types
+      of encoded parameters.
+    o Launching of agent on startup directed user to incorrect page.
+    o Active Directory accounts listing includes Computer accounts.
+    o Redirect invalid hostname when multiple valid hosts exists was broken.
+    o Changed the action name for reset user attributes to match the method name.
+    
+-----------------
+
+SSL-Explorer 0.2.7_02 - August 14, 2006
+
+Bug Fixes
+    o Replacement proxy resources upgraded from 0.2.4 throw NullPointerException when an
+      attempt is made to edit them.
+                     
+-----------------
+
+SSL-Explorer 0.2.7_01 - August 12, 2006
+
+Bug Fixes
+    o Downloading files in IE was broken after Cache-Control, Expires and Pragma headers were added
+      to the HTTP response.
+    o LogonStateMachine is not re-initialized in all WebDAV & Embedded client flows. Causing NullPointerException 
+      when client attempts to connect.
+    o Removing child page task fails to remove reference from menu map.
+    o Bug introduced in 0.2.5 caused certificates to fail import.
+    o Reverse proxy fails to process POST parameters when Content-Type is not application/x-www-form-urlencoded
+   
+-----------------
+
+SSL-Explorer 0.2.7 - August 7, 2006
+
+
+Bug Fixes
+    o Reverse proxy to Outlook Web Access corrupts POST parameters. This is caused by IIS
+      and OWA assuming an ISO-8859-1 encoding and not setting this as the encoding on 
+      the request. An addtional field has now been added allowing the default UTF-8 encoding
+      to be overriden with the character set specified in the Reverse Proxy configuration.
+    o Importing trusted certificate fails with NullPointerException. Alias is required
+      but field was missing from user interface.
+    o Importing trusted certificate fails when subject entity does not contain audited
+      entity.
+    o LogonStateMachine is not re-initialized in all logon flows. Causing NullPointerException 
+      after server has restarted.
+      
+-----------------
+
+SSL-Explorer 0.2.6 - August 4, 2006
+
+Features
+    o Login flow now presents user with the authentication schemes they have been assigned
+      through their policy. If a user is not attached to any authentication schemes they
+      will simply not be able to login. This requires that the user enter their username 
+      before being passed through to the authentication scheme selection, if the user
+      only has one scheme assigned they will be automatically be taken to that scheme. To
+      prevent leakage of user information an attempt to login with a bad username will still
+      result in an authentication scheme being dispayed.
+    o Attribute selection user interface added to input fields where attributes can be set.
+    o RSS based context sensitive help added to managment console.
+                          
+Bug Fixes
+    o User is prompted for password if they attempt to access a resource that contains 
+      the ${session:password} attribute and their chosen authentication scheme does not
+      contain the password module.
+    o Proxy support was broken since 0.1.16. This release contains fixes for agent proxy
+      authentication.
+    o Domain field missing from profile agent proxy information.
+    
+----------------
+    
+SSL-Explorer 0.2.5 - July 28, 2006
+
+Features
+    o Authentication schemes are now assigned to policies. This currently has no effect but has been 
+      added in preperation for the next release that will include a policy based authentication flow.
+    o Replacement proxy can now set list of acceptable target hosts, with wildcard support.
+    o Authentication scheme order options added.
+    o Policy order options added to resource assignment (in preperation for policy attributes).
+                
+Bug Fixes
+    o Access to resources with ${session:password} was broken when Password module was not present 
+      in the authenticated scheme. User will now be prompted for their password before being
+      allowed access to the resource.
+    o Confidential data private key flow breaks when Password module is not used in the authenticated
+      scheme.
+    o If ${session:username} and ${session:password} are used for web forward authentication but the 
+      values are incorrect, the user is never able to authenticate through normal HTTP authentication.            
+    o After a restart request the user interface becomes unusable.
+    o Authentication options removed from tunneled web forward.
+    o Deleting single file in Network Places now prompts user to confirm
+    o Warning messages no longer displayed on logon page.
+
+-----------------
+
+SSL-Explorer 0.2.4 - July 6, 2006
+
+Features
+    o Minor framework changes to application launching required for Enterprise Edition.
+    
+-----------------
+
+SSL-Explorer 0.2.3 - June 29, 2006
+
+Features
+    o Plugin install framework added to allow plugins to execute one time installation
+      routines.
+
+Bug Fixes
+    o Webfolder MKDIR fails due to incorrect HEAD reply sent by SSL-Explorer.
+    o Restart confirmation throws permission error.
+    o Removing plugin type extension results in confusing message.
+    o Purchase certificate link opens in same window.
+
+-----------------
+
+SSL-Explorer 0.2.2 - June 23, 2006
+
+Features
+    o Extension types can now be added using sslexplorer.extenstionType.xxxx system property with 
+      xxxx being the plugin type name and value pointing to a valid ExtensionType class name. 
+    o Extensions can now be hidden from the application view with the hidden="true" attribute.
+    o Agent launcher extended to allow other application types to be launched directly through the
+      launcher applet.
+
+Bug Fixes
+    o Active directory searches now support paging of requests, this helps to support AD deployments
+      where the number of objects exceeds the maximum page size (which by default is 1000).
+    o Message sink fails to initialize a newly added sink after the Notifier has been started.
+    o Network place stores now set default file encoding. CIFS store encoding can be changed at 
+      runtime by setting the "jcifs.encoding=CHARSET" system property in $SSLX_HOME/sslexplorer/conf where
+      CHARSET is the expected encoding of the CIFS servers.
+    o Disabled authentication schemes were still able to be selected at logon.
+    o Multiple groups of same type added to Active Directory users.
+    o All ant targets now compile source code when invoked.
+    o HTTPS reverse proxies would fail due to Maverick SSL trust store being unavailable in source release.
+   
+-----------------
+
+SSL-Explorer 0.2.1 - June 15, 2006
+
+Bug Fixes
+    o UTF-8 encoding of web pages fails because reverse proxy 'bug' forces ISO-8859-1 encoding
+      of requests.
+    o PKCS12 import of server certificate fixed.
+    o Fixed bug in Active Directory which caused pre-authentication information is invalid erros
+      even when username and password is correct. This was traced back to case sensitivity option.
+    o Usernames and passwords are encoded correctly into Network Places URIs.
+    o Network places edit re-encodes and already encoded path.
+    o All logging now wrapped into isInfoEnabled, isDebugEnabled methods to help reduce logging 
+      overhead.
+    o Web forwards on favourites page are now launched in seperate window.
+    o Default logging level changed back to INFO.
+    o Exception thrown when no extension store is available.    
+    o Web folders fail to launch with NullPointerException thrown from getPasswordFromCredentials.
+    o Active directory referrals cause multiple user database failures.
+    o Sort fails on groups and account pages.
+    o Proxy settings not used by installation wizard.    
+    o Deleting/creating built-in accounts causes session to crash.
+    
+-----------------
+
+SSL-Explorer 0.2.0 - June 9, 2006
+
+Features
+    o New intuitive user interface with seperation of user and management interfaces.
+    o New policy based permissions framework.
+    o Installation wizard simplifys initial configuration.
+    o Improved Active Directory support
+    o Resource creation wizard to simplify the creation and access right assignment of resources.
+    o Add resources to favorites at the policy level.
+    o Improved web forward support including FORM based authentication.
+    o New messaging framework.
+    o Improved network place support with Windows shares, local and FTP file access.
+    o User attributes can be added to accounts and referenced in resources using variables.
+    o Confidential attributes are now stored securely on the server using asymmetric encrpytion.
+    o New WEBDav implementation. 
+    o CSS based themes
+    
+-----------------
+
+SSL-Explorer 0.1.16_01 - March 1, 2006
+
+Bug Fixes
+    o WebDAV authentication fails
+
+-----------------
+
+SSL-Explorer 0.1.16 - February 24, 2006
+
+Features
+    o Authentication module framework now allows an authentication scheme to access a 
+      HttpServletResponse directly.
+    o Added permission for WOL feature. 
+    o Extra log entries to help detect possible network errors.
+
+-----------------
+
+SSL-Explorer 0.1.15_01 - January 24, 2006
+
+Bugs
+    o Database upgrade script fails with column constraint error.
+    o Text area parameter type causes JSP error.
+    o Registry <get> extension element not recognised by server after extension upload. 
+
+-----------------
+
+SSL-Explorer 0.1.15 - January 20, 2006
+
+Features
+    o Reverse proxy host header field added - allows you to define the exact hostname used so
+      that backend servers can be configured to use virtual hosting.
+    o NTLM proxy support now allows a browser to transparently authenticate over NTLM against 
+      a reverse proxy web forward.
+    o Wake up on LAN feature allows broadcast packet to be sent to wakeup computers.
+
+Bugs
+    o Outgoing HTTP connections incorrectly forced to disconnect causing forwarding errors.
+    o Upload of certificate authority reply fails with 404 Page Not Found error.
+    o HTTP debugging mode in some cases causes 404 Page Not Found errors on web forwards.
+    o VPN Client synchronization would often fail even though the client was started OK.
+    o Active directory database fails to initialize when hostname contains '_' character.
+    o Fix to trusted CA signature verification process which caused some certificates to be 
+      incorrectly returned as invalid.
+    o Editing a reverse proxy web forward fails to save with "Path already exists" error.
+    o VPN client fails to connect with Handshake failure after installing CA trusted cert.
+
+-----------------
+
+SSL-Explorer 0.1.14 - October 27, 2005
+
+Features
+    o Optional HTTP listener can now redirect users to HTTPS server.
+    o SSL tunneling now supports remote forwarding.
+    o PKCS12 private keys can now be imported into SSL-Explorer's keystore.
+     
+Bugs 
+    o Secure proxy href replacement fails with HTML entities such as &amp;
+    o Secure proxy only supports GET and POST requests.
+    o Extension ${session:password} token was not being replaced with users password.
+    o HttpUrlConnection to extension store does not follow redirects.
+    o Server start up check fails when server is configured to listen on a specific interface
+      and another service exists on the same port on a different interface.   
+    o Cannot create a secure proxy replacement setting.
+    o Setting proxy type to 'None' causes VPN client launch failure. 
+    o Launching native executable as an extension with a working directory set fails. Java
+      exec method (on windows) is not searching the working directory for executables, only
+      the path.
+    o When using the 'Status' page to logoff embedded client sessions, any active
+      tunnels were not being closed.
+
+-----------------
+
+SSL-Explorer 0.1.13_03 - September 27, 2005
+
+Bugs 
+    o Reverse proxy to HTTP services hosted on IIS often fail due to incorrect <base> tag. Added automatic
+      detection of IIS to set "Front-End-Https: on" header, in addition Location headers are converted
+      if host is same as SSL-Explorer server and protocol is http://
+    o Strict checking does not list Windows 2000 and Windows 98 as supported operating systems, causing 
+      client connection failures on those OS.
+
+SSL-Explorer 0.1.13_02 - September 23, 2005
+
+Bugs 
+    o Corrected cookie expiry code to only require a cookie when HTTP session has closed, active
+      HTTP sessions will still be usable if the browser fails to send the logon cookie with every
+      request.
+    o Disabling of password expiry was broken.
+    o Forcing a password change when creating a user throws exception.
+
+SSL-Explorer 0.1.13_01 - September 22, 2005
+
+Bugs 
+    o Global reverse proxy configurations do not work for ordinary users even if they
+      have the necersary permissions.
+    o Applications fail to launch through a proxy server
+    o VPN client fails to register when 'valid hostnames' configuration has been set.
+    o Launching an Active DNS reverse proxy will now evaluate the request host header
+      and display an error if the browser is connected using a numeric IP address
+
+SSL Explorer 0.1.13 - September 15, 2005
+
+Features 
+     o New web forward type "Reverse proxy" added. This behaves in much the 
+       same was as the Apache reverse proxy feature. Web forwards are forwarded
+       based upon the path element of the URL. For example to forward OWA you would
+       forward all paths begining with '/exchange', '/exchweb' and '/public'.
+     o Full support for IE OWA interface through the reverse proxy feature.
+     o Reverse proxy also supports an 'Active DNS' feature which allows web sites
+       running on the root of a web server to be forwarded through the reverse proxy. For
+       example under normal conditions you would not be able to forward a site for which
+       the entry URL is 'http://www.example.com/" because there are no paths to match with
+       reverse proxy rules. This feature requires that a wildcard CNAME DNS record points
+       to the SSL-Explorer server.
+     o The proxy URL option has been removed and replaced with 5 separate
+       fields. Upon upgrade any previous proxy URL will be removed and will
+       have to be re-applied manually. Better detection of browser settings
+     o Added documentation link to the 3sp.com knowledge base
+     o A new option 'Validate external hostnames' has been added to 
+       "Admin -> Configuration -> Gemeral Options" that checks the hostname 
+       as entered in the browser. If the hostname is not in the list (one host 
+       per line), then the browser will be directed to the first in the list (the 
+       default).
+     o Boolean parameter type in extension.xml now supports typeMeta attribute which 
+       enables values other than 'true' or 'false' to be used.
+     o Roles and accounts pages are now paged and sorted with the ability to changed 
+       the number of items shown on a single page.
+     o Active Directory configuration improvements - A standard configuration will now list
+       all accounts and roles within unless any number of OU filters are setup. If filters
+       exist then only the accounts and roles within or beneath the filtered OUs will be
+       shown.
+     o AD OU filter will now automatically append the base DN if required, for example if
+       you had 'OU=Employees,DC=EXAMPLE,DC=COM' you can now omit 'DC=Example,DC=COM' and enter
+       the value 'OU=Employees'
+
+Bugs 
+     o IE + Firefox will no longer ask if you want to store a new password
+       even when there is no valid logon password on the page.
+     o If an exception page is displayed during the logon sequence, the browser
+       no longer shows any fields entered (username, password etc) in the 
+       address bar upon clicking close.
+     o Deleting a profile fails.
+     o Changing password allows use of old password.
+     o Secure proxy allows URL's to be entered manually. This was a potential security 
+       problem as users could navigate to any URL through the secure proxy feature.
+     o When attempting to launch the VPN client and a Java runtime is not available, if 
+       the user chooses not to download the plugin (or is not given the option to) - 
+       there was no way of escaping the launch page.
+     o Using the MS JVM for the VPN client now works again (you will no longer be forced 
+       to download the Sun JRE). Only If NO Java is installed, you will still be instructed 
+       the Sun runtime.
+     o Attempting to launch a HTML application before the VPN client is loaded fails.
+     o When an existing keystore had an incorrect password, setting the password to the 
+       correct value did not load the keystore until the service was restarted. The keystore 
+       is now reloaded whenever the password is changed.
+     o Setup fails to start with incorrect AD settings. This is actually caused by the server
+       closing the main thread down after 30 seconds, the AD database was still attempting to 
+       contact the domain server and so initialization was not compelte. The timeout has now 
+       been increased.
+     o When manually uploading an extension as a default administrator, the upload would fail 
+       the first time with 'permission denied ...'.
+
+    
+Additional Notes
+
+     o Any web forward favorites will be DELETED upon upgrade. This is due
+       to a change in the way these favorites are keyed in the database. 
+     o More JSP files have being renamed to the correct .JSPF (JSP Fragment).
+       This helps with syntax checking in IDEs.
+     o Major re-factoring, and package re-organisation. SSL-Explorer is now
+       split up into more jars as well.
+     o The system property sslexplorer.useDevConfig previously also enabled the
+       TCP/IP database server. This must now be done separately using the
+       sslexplorer.hsqldb.tcpipServer property.
+
+-----------------
+
+SSL Explorer 0.1.12 - June 30, 2005
+
+Features
+     o Installation of service scripts should now work correctly on Debian based systems
+       (tested on Ubuntu 5.04).
+     o The improved menus from the SSL-Explorer Xtra Extension has been moved 
+       into the GPL core. The menus have also been re-organised.
+     o Improvements to VPN client launching. It may now be launched or shutdown 
+       by clicking on the ONLINE / OFFLINE status at the top of the page. The launching 
+       itself is now done on a separate page which then redirects back to the previous page 
+       when complete.
+     o SSL-Explorer now has a much more flexible Authentication Module features. The user 
+       may define their own 'Authentication Schemes'. Each scheme may then be customised 
+       to consist of any available 'Authentication Modules' (with one scheme being flagged 
+       as the Default). When logging on, the user may then choose which scheme to use and 
+       they will be presented with each module one by one until completely logged on. 
+     o Personal Information authentication scheme added to provide a second level of authentication
+     o When using Active Directory, SSL-Explorer now requires a 'Service Account Username' 
+       and 'Service Account Password'. These should be the logon details of a dedicated account 
+       that you must set up in your Active Directory. Once this has been configured, you will 
+       be able to view roles and accounts (including in setup mode).
+     o It is no longer necessary to restart the server when you change the Active Directory 
+       configuration. 
+
+Bugs
+     o An 'Exit' button is now available when the browser is restarted and session locking
+       is turned on. This allows you to logoff.
+     o Embedded VPN client failed to authenticate to 0.1.11. 
+     o Embedded client disconnect method fails to stop any listening sockets that have been opened.        
+
+Additional Notes
+
+     o Many JSP files are gradually being renamed to the correct JSPF (JSP Fragment).
+       This helps with syntax checking in IDEs.
+
+=================
+=    HISTORY    =
+=================
+
+SSL Explorer 0.1.11 - May 27, 2005
+
+Features
+     o Status page is now available which shows the currently logged on users and their
+       remote ip providing the administrator with the ability to logoff sessions.
+     o SSL-Explorer can now check whether there are any updates to the core
+       available, or if there any extensions installed that have updates. These
+       features will be automatically enabled if you accept the agreement to 
+       connect to the 3SP Extension Store. You may also enable this manually
+       in Setup -> General Configuration -> Automatic Updates.
+     o Documentation can now be reached from the new 'Help' menu. The Guides 
+       have been moved out of the installer archives and into the webapp/doc.
+
+Bugs
+     o 'Shutdown' button on shutdown page renamed to 'Ok'. 
+     o VPN client sessions will now correctly be timed out if the VPN client
+       dies unexpectedly. 
+     o VPN client launcher uses java system property "user.home" to determine where to install
+       downloaded applications. Under the Microsoft VM this property is set to "C:\Windows\Java"
+       yet under Sun VM it points to the users profile directory. An attempt is now made to determine
+       the users profile directory and use it under the Microsoft VM. 
+       
+SSL Explorer 0.1.10 - May 13, 2005
+
+Features
+     o Experimental service support for SuSE Linux. Thanks jooa.
+     o New 'About' page and SSL-Explorer logo
+     o Administrative warnings - New global warnings features that is used to provided administrative 
+       warnings when certain configuration changes occur. A message requesting a restart is displayed 
+       under the following conditions:-
+
+             1. Key store / certificates change.
+             2. User database changes.
+             3. Default administrators changes.
+             4. Active Directory configuration changes
+             5. CIFS configuration changes
+
+     o Shutdown warning when other users are logged on - Message is now displayed telling the admin 
+       how many users are currently logged on when either Shutting down / Restarting using the web interface.
+     o Application shortcuts cancel button required has been added to most forms where appropriate. You will
+       be taken back to the previous page.
+     o Minor Enhanchment to Prompt Profile at Login - If 'Prompt for profile at logon' is enabled, the profile 
+       is no longer prompted for if the user only has one available.
+     o A Warning is now displayed on the logon page if cookies are not enabled on a users browser. SSL-Explorer 
+       relies on cookies and will act very strangely if they are not available.
+     o Global profiles are now uneditable
+
+Bug Fixes
+     o Blank page displays after completing form input - This is caused by the browser failing to redirect from
+       the VPN client to the SSL-Explorer server. The redirected link is now displayed so that the user can 
+       navigate to the correct location instead of using the browsers back button.
+     o Opening documents in network places HTML directory browser now spawns a new window.
+     o Manually uploading new extension (application) bundles failed when using IE.
+     o Refresh now works correctly in the network places HTML file browser when using Internet Explorer.
+     o Active Directory users with no roles are no longer displayed in the account list.
+     o Fixed bug where it was possible for a user to edit a few global properties in the 'Options' page of the 
+       HTML network places browser. 'Options' will now no longer be available if the current profile is a global one.
+     o Users that were part of a revoked role that had adminstrator permission were still able to logon. Also, it was
+       possible to grant / revoke default administrator roles. This had no meaning as all default administrator users
+       and roles are granted access.
+     o OWA doesn't like percentage characters - This was part of a larger form encoding problem when the form in 
+       question is sent as a GET request and was being decoded twice.
+     o Network places not responding - More friendly error message displayed if SSL-Explorer (jCIFS) cannot locate 
+       the windows master browser.
+     o Fixed possible NPE with some Active Directory configurations.
+     o Java RDP not using specified username - Java RDP application was not using the specified username / password.
+     o Fixed problem where IE would not always show that the VPN client had successfully been started (it was showing
+       the 'Launch' button).
+     o Fixed bug where replacement type could not be changed (e.g. from 'Received Content' to 'Sent Header'
+     o Fixed more encoding problems in Secure Proxy Web Forwards.
+     o Fixed incorrect warning text for profile deletion.
+
+-----------------
+
+SSL Explorer 0.1.9 - April 5, 2005
+
+Features
+     o Improvide application shortcuts UI. Application description is now
+       shown when creating a shortcut.
+     o New option for secure proxy webforwards to try the current username / 
+       password credentials if a HTTP authentication is requested. 
+     o Option to request that a user changes their password upon next logon
+       (for user databases that support password change). The default 'admin' 
+       user will also now require changing upon initial logon.
+     o Account deletion now requires confirmation.
+     o Improvements to server lock detection (the sslexplorer.run problem for
+       those that experienced it). More meaningful error messages are also
+       now given when there are port conflicts.
+     o Cancel buttons have been added to most forms where appropriate. You
+       will be taken back to the previous page.
+     o Property help is now shown as a tool tip.
+     o Option to view network place in Microsoft WebFolders view
+      
+Bug Fixes
+     o Autocompletion for passwords in shortcuts was enabled.
+     o Profile being edited was being made the current profile upon applying
+       new properties.
+     o Obsolete user information was being left behind when accounts were 
+       deleted. This is now cleaned up (Currently JDBC user database only).
+     o Use of % characters when submitting forms using GET via secure proxy 
+       webforwards was failing.
+     o Opening documents in network places HTML directory browser now spawns
+       a new window.
+     o When 'Prompt for profile at logon' is enabled, the profile selector was
+       displayed when only one profile was available. 
+
+-----------------   
+
+SSL Explorer 0.1.8 - March 14, 2005
+    
+Features
+     o Domain, user and password are can now be made optional for the rdesktop
+       and Java RDP applications.
+     o New option for VPN client 'No session timeout if active' that will 
+       prevent SSL-Explorer timing-out the session if the VPN client is active.
+     o Session time-out can now be set per profile instead of globally. This
+       allows for example a lower timeout to be configured for profiles that
+       may be used on public machines.
+     o Web Forward URLs may now be edited.
+     o Application resources are now installed to 
+       [install]/webapp/WEB-INF/classes/[pkg]/ApplicationResources.properties.
+       This will also for easier internationalisation and customisation. 
+     o New permissions framework. See documentation for more details. Note,
+       the user enable / disable and administrator flags are now presented
+       as permissions. You may also have to change your list of default
+       administrators (now in the Setup -> General -> Security) and disable 
+       any users you may have previously disabled.
+     o Support added in Web forwarding for MS Outlook Web Access.
+     o Active directory user information is now cached. This is backed up
+       by a new option (User / Group details cache TTL)
+     o New option to place restrictions on logging on multiple times. Can
+       either be restricted to single session per user, or a single session
+       per user / ip address (i.e. the same username may logon from the 
+       same host many times).
+     o New option to disable automatic connection to 3SP application store.
+     o A single application descriptor may now contain many application 
+       definitions, as demonstrated in the RMAS suite.
+     o Performance improvements to the secure proxy. 
+     o Web forwards, Network places and SSL Tunnels may now all be added 
+       as favorites. The home page has been reworked to display these 
+       different categories of favorites.
+
+Bug Fixes
+     o Built in users could not be created or edited in setup mode.
+     o Keystore password removed from Setup -> General Configuration ->
+       Web Server. This is now must be changed in the Setup -> Ceritificates.
+     o Roles with international characters in their names could not be deleted.
+     o Problem with secure proxy and sites that check the referer header.
+     o Classloader problems causing critical errors in accounts setup.
+     o Favourites on the welcome page were completely broken.
+     o Checking of password policy was being done for user databases that
+       dont support password change (i.e. AD). This caused a conflict as
+       AD has its own password policies. Password policies are now ignored
+       if the underlying database doesnt support password change.
+     o Performance improvements for listing of AD users.
+     o Change the auto-start flag on existing tunnels was broken.
+     o Profile selection no longer displays menu items and tabs that cannot
+       be used until a profile is selected.
+     o On Windows, when SSL Explorer is launched from a shortcut (either 
+       setup mode or console), any start-up errors will be displayed in 
+       a dialog instead of the console that rapidly disappears!
+     o Secure proxy now support file uploads.
+     o New 'Bind address' option to set what interface to listen for browser 
+       connections on. Blank or 0.0.0.0 may be used to listen on all interfaces. 
+       This returns functionality removed when we stopped using the XML for 
+       Jetty configuration (jetty.xml).
+     o VPN client fails to tunnel with proxy connection. Added new code to resolve
+       this and added NTLM authentication (tested against ISA server) and
+       digest authentication (experimental may not work)
+      
+-----------------   
+
+SSL Explorer 0.1.7 - January 28, 2005
+
+Features
+     o Session timeout may now be configured.
+     o Application shortcuts may be edited.
+     o Global application shortcuts may now be defined. 
+     o Many changes to the format of application.xml have been made. More details
+       will be made available in the documentation.
+     o New Application Store management features including download applications
+       from the new 3SP Application Store. 
+     o Embedded clients now supports authentication via a ticket. This allows
+       SSL Explorer aware applications to be defined and launched without 
+       authenticating again.
+     o VPN client now has a console where all log output can be monitored.
+     o New 'HTML' application bundle type allowing Applets and ActiveX 
+       components to be deployed. The same features that are available for
+       Java applications are available, including tunnels and embedded client
+       ticket authentication.
+     o Added tunnel inactivity timeout (defaults to 10 minutes). 
+     o If SSL Explorer is running on a network where it is required (or useful)
+       to use a proxy server for outgoing connections, both HTTP and SOCKS 
+       servers may now be configured.
+     o Tunnels can now be edited (both personal and global).
+     o New options to 'Try current user' and 'Try guest' for authentication in
+       Network Places (both HTML and WebDAV).
+     o Option to prevent application tunnels being started on the
+       preferred port. Add the attribute 'usePreferredPort' and set a value of false.
+     o New screens to create, edit and delete replacement patterns used to process
+       pages loaded through the secure proxy feature.
+     o New feature to check the VPN clients environment (Os name, version, patch level and
+       Java version and vendor). The feature must be enabled in the Setup -> General 
+       then a new setup section will appear allowing you to configure the restrictions.
+     o Progress bar shows slightly (!) more accurate progress.
+     
+
+Bug Fixes
+     o Sessions will no longer timeout during webdav operations or if tunnels are open.
+     o Uploaded files were being saved to memory first making it impossible to
+       upload large files.
+     o Robots.txt added to prevent search engines finding SSL Explorer installations.
+     o Some Windows Networks would not allow access (when a host was not part of a domain).
+     o Password / Security options are back again, this time in Setup -> General
+     o Username / Password will no longer be remembered by the browser at the login screen.
+     o Bookmarks now work in web pages loaded through the secure proxy.
+     
+-----------------     
+
+SSL Explorer 0.1.6 - December 31, 2004
+
+Bug Fixes
+     o Configuring a proxy URL without the protocol specification causes NullPointerException
+
+-----------------
+
+SSL Explorer 0.1.6 RC1 - December 29, 2004
+
+Features
+    o Users may now define multiple profiles allowing different configurations
+      for different environments. Global profiles may be configured.
+    o Application definitions may now specified the working directory to launch
+      the application in. The 'dir' attribute can be added to the <main> element.
+      Use %INSTALLDIR% to specify the directory where the application files are
+      downloaded to.
+    o Added the Java IRC client PJIRC as a supported application.
+    o Accounts tab moved to 'Admin.' section.
+    o IP Restrictions moved to 'Setup' section.
+    o User logon information is now displayed in the footer.
+    o Support for launching VPN client through HTTP proxy
+
+-----------------
+
+SSL Explorer 0.1.5 - December 21, 2004
+
+Features
+    o Web forwarding with Single Site (through SSL tunnel) and Secure Proxy (SSL-Explorer acts as proxy)
+    o Windows file sharing
+    o UDP tunnels (Experimental)
+    o Simpler configuration - no need to edit configuration files
+    o Option to restart service from web interface
+    o System configuration items now have information links
+    o Improved password and authentication options
+
+Bug Fixes
+    o System configuration items are now ordered
+    
+-----------------    
+
+SSL Explorer 0.1.4 - October 28, 2004
+
+Features
+    o Tunnels are now persistant.
+    o Global tunnels may be configured that will be available for all
+      authenticated users.
+    o Database is now automatically upgraded. 
+
+-----------------
+
+SSL Explorer 0.1.3 - October 8, 2004
+
+Bug Fixes
+    o  Deleting application shortcuts fails and sends user back to login screen.
+
+-----------------
+
+SSL Explorer 0.1.2 - September 25, 2004
+
+Bug Fixes
+    o  VPN client fails because AbstractVPNClient class is missing from jar file
+
+-----------------
+
+SSL Explorer 0.1.1 - September 24, 2004
+
+Features
+    o  Now includes embedded database HSQLDB for easier configuration
+    o  Launching of applications now displays progress (still buggy)
+    o  Now uses Jetty 5.0 for web application container
+    o  All logging from Jetty, HSQLDB and SSL Explorer takes place
+       through commons-logging
+
+Bug Fixes
+    o  Silent exception caused system properties to always select default value
+
+-----------------
+
+SSL Explorer 0.1.0 - August 26, 2004
+
+Features
+    o  VPN client compatible with MSJVM.
+    o  SSL Tunneling.
+    o  Deploy commonly used java applications for quick and easy access from any Java enabled browser.
+    o  Automatic configuration of application tunneling requirements.
+    o  Restrict access based on IP address.
